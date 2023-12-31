@@ -1,0 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+#root {
+  background-color: #f6f6f6;
+  inset: 0;
+  position: absolute;
+}
+
+.content-container {
+  background-color: white;
+  width: 1032px;
+}

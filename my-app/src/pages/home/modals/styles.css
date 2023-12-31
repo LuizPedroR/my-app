@@ -1,0 +1,59 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.popover-button {
+  background: transparent;
+  color: #656565;
+  border: 0px;
+  width: 156px;
+  padding: 10px 16px;
+  text-align: left;
+}
+
+#actions-popover > .popover-arrow {
+  display: none;
+}
+
+.popover-button:first-child {
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.popover-button:last-child {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.popover-button:hover {
+  background-color: #edf3fc;
+  color: #136cdc;
+}
+
+.action-btn {
+  background: transparent;
+  color: black;
+  border: 0px;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  background-image: url("/public/images/User-placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+#select-avatar {
+  display: none;
+}
+.avatar > img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.fundo-site {
+  background-color: #f6f6f6;
+}
